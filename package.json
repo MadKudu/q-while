@@ -1,0 +1,41 @@
+{
+  "name": "q-while",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadKudu/q-while.git"
+  },
+  "keywords": [],
+  "author": "Erik Villaume",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MadKudu/q-while/issues"
+  },
+  "homepage": "https://github.com/MadKudu/q-while#readme",
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "scripts": {
+    "postinstall": "",
+    "test": "npm run-script lint && npm run-script mocha",
+    "mocha": "./node_modules/mocha/bin/mocha --recursive test/",
+    "lint": "./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "dependencies": {
+    "q": "1.4.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.17.0",
+    "eslint-config-standard": "7.0.0",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "2.1.1",
+    "mocha": "3.2.0"
+  }
+}
